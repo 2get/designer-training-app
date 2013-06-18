@@ -10,10 +10,5 @@
   <%= @comment.content %>
 </p>
 
-<p>
-  <strong>Topic:</strong>
-  <%= @comment.topic %>
-</p>
-
-<%= link_to 'Edit', edit_comment_path(@comment) %> |
-<%= link_to 'Back', comments_path %>
+<%= link_to 'Edit', edit_topic_comment_path %> |
+<%= link_to 'Back', topic_comments_path %>
